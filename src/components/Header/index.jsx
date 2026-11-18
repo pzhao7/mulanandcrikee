@@ -19,6 +19,12 @@ const Header = () => {
           </Link>
         </div>
         <div className="dib w-75 v-mid tr">
+          <Link
+            to="/plants"
+            className="light-gray link dim f6 f5-l mr3 mr4-l"
+          >
+            Plants
+          </Link>
           {navLinks.map((n, i) => (
             <a
               key={i}
